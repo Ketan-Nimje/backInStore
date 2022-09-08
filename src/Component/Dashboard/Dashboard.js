@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Page, Card, Layout, Stack, TextContainer, TextStyle, DisplayText } from "@shopify/polaris";
+import { Page, Card, Layout, Stack, TextContainer, TextStyle, DisplayText, Grid } from "@shopify/polaris";
 import './../../index.css';
 
 export default function Dashboard() {
@@ -150,6 +150,12 @@ export default function Dashboard() {
             </div>
           </Card>
         </Layout.Section>
+        {/* <Layout.Section >
+          <Card sectioned title="Our Apps">
+            
+          </Card>
+        </Layout.Section> */}
+
         <Layout.Section>
           <Card title="Dashboard">
             <Card.Section>
@@ -159,6 +165,6 @@ export default function Dashboard() {
         </Layout.Section>
       </Layout>
 
-    </Page>
+    </Page >
   );
 }
